@@ -18,6 +18,9 @@ This project is an Android application built with Jetpack Compose, Room DB, and 
 <img src="./sample/Screenshot_2024-07-26-00-06-21-130_com.example.a366pi.png" alt="No Internet" width="270" height="600"/>
 <div>
 
+## Download
+You can download the latest APK from the [Releases](https://github.com/mishrabiswajit/366pi-roomdb-reqres/releases) page.
+
 ## Features
 - **Fetch and Display Users**: Fetch users from the ReqRes API and display them in a list.
 - **Add User**: Add new users via a form and sync with the ReqRes API.
