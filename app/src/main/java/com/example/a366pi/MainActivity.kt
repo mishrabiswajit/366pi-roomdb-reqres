@@ -344,9 +344,12 @@ fun AddUserPage(onBack: () -> Unit, onUserAdded: (User) -> Unit) {
                             snackbarHostState.showSnackbar("Employee Last Name cannot be empty")
                         }else if (employeeID.isEmpty()) {
                             snackbarHostState.showSnackbar("Employee ID cannot be empty")
+                        }else if (employeeID.length!=6) {
+                            snackbarHostState.showSnackbar("Employee ID must be of 6 digits")
                         }else if (employeeEmail.isEmpty()) {
                             snackbarHostState.showSnackbar("Employee Email ID cannot be empty")
                         } else {
+
                                 // Creating a new user
                                 val newUser = User(
                                     id = employeeID.toInt(),
